@@ -1,0 +1,6 @@
+<p [ngClass]="{'test': flag === 'true'}">{{ flag | uppercase }}</p>
+<p *ngFor="let n of name">{{n}}</p>
+<p> {{ createdDate | date: 'longDate' }} </p>
+<p>{{ 4346234.36 | number: '1.0-1' }}</p>
+<p>{{ 0.336 | percent }}</p>
+<p>{{ 344.36 | currency : 'EUR' }}</p>
